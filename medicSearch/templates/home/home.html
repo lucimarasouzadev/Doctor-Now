@@ -8,7 +8,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 offset-sm-0 offset-md-3 offset-md-3">
             <form action={% url 'medics' %} method="GET">
-                <h3 class="text-center">NOW DOCTOR - Encontre Seu Médico</h3>
+                <h3 class="text-center">Now Doctor - Encontre Seu Médico</h3>
                 <div class="form-row">
                     <div class="col form-group"><input type="text" class="form-control" name="name" placeholder="Buscar por nome"></div>
                 </div>
@@ -16,13 +16,30 @@
                     <div class="col form-group">
                         <select class="form-control" name="speciality">
                             <option value="0" selected disabled>Selecione uma especialidade</option>
-                            <option value="1">Neurocirugia</option>
+                            <option value="1">Neurocirurgia</option>
+                            <option value="10">Endocrinologia</option>
+                            <option value="11">Ginecologia</option>
+                            <option value="9">Cardiologia</option>
+                            <option value="7">Cliníco Geral</option>
+                            <option value="6">Pediatria</option>
+                            <option value="13">Dermatologista</option>
+                            <option value="14">Psicologia</option>
+                            <option value="15">Psiquiatria</option>
+                            <option value="15">Urologia</option>
                         </select>
                     </div>
                     <div class="col form-group">
                         <select class="form-control" name="state">
                             <option value="0" selected disabled>Selecione um estado</option>
                             <option value="1">Rio de Janeiro</option>
+                            <option value="3">São Paulo</option>
+                            <option value="5">Bahia</option>
+                            <option value="6">Paraná</option>
+                            <option value="7">Ceará</option>
+                            <option value="8">Amazonas</option>
+                            <option value="10">Goiás</option>
+                            <option value="11">Santa Catarina</option>
+                            <option value="12">Minas Gerais</option>
                         </select>
                     </div>
                 </div>
@@ -31,12 +48,26 @@
                         <select class="form-control" name="city">
                             <option value="0" selected disabled>Selecione uma cidade</option>
                             <option value="1">Rio de Janeiro</option>
+                            <option value="6">Salvador</option>
+                            <option value="7">Manaus</option>
+                            <option value="8">Fortaleza</option>
+                            <option value="9">Curitiba</option>
+                            <option value="12">São Paulo</option>
+                            <option value="4">Campinas</option>
+                            <option value="11">Goiânia</option>
                         </select>
                     </div>
                     <div class="col form-group">
                         <select class="form-control" name="neighborhood">
                             <option value="0" selected disabled>Selecione um bairro</option>
                             <option value="1">Botafogo</option>
+                            <option value="5">Rio Vermelho</option>
+                            <option value="6">Bairro Novo</option>
+                            <option value="7">Pirambu</option>
+                            <option value="8">Centro</option>
+                            <option value="10">Alvorada</option>
+                            <option value="11">Moema</option>
+                            <option value="4">Cambuí</option>
                         </select>
                     </div>
                 </div>
